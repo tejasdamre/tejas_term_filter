@@ -1,13 +1,13 @@
-Tejas Term Filter Module
-Overview:
+**Tejas Term Filter Module**
+**Overview:**
 The Tejas Term Filter module provides a custom form element called term_filter that can be used in custom forms within Drupal. This element is designed to allow users to select taxonomy terms with options for inclusion or exclusion.
 
-Features:
+**Features:**
 Radio Field: Options include "None", "Include", and "Exclude", with the default set to "None".
 Select Field: Allows the selection of a term from a specified taxonomy vocabulary. Terms are sorted alphabetically.
 Dynamic Behavior: The select field for term selection is only visible if the radio field is set to "Include" or "Exclude".
 
-How to Use:
+**How to Use:**
 To use the term_filter form element in your custom form, include the following in your form definition:
 
 $form['term_filter'] = [
@@ -18,7 +18,7 @@ $form['term_filter'] = [
 ];
 
 
-Setting Default Values:
+**Setting Default Values:**
 To prepopulate the form element with default values, pass the #default_value property as follows:
 
 $form['term_filter'] = [
